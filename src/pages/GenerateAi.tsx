@@ -33,7 +33,7 @@ export default function GenerateAI() {
               name="prompt"
               id="prompt"
               className="border bg-white p-4 rounded-lg w-full border-slate-800"
-              placeholder="Genera una receta con ingredientes. Ej. Bebida con Tequila y Fresa"
+              placeholder="Genera una receta con ingredientes."
             />
             <button
               type="submit"

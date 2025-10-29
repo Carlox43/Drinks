@@ -98,7 +98,7 @@ export default function Header() {
         </div>
         {isHome && (
           <form
-            className="md:w-1/2 2xl: w-1/3 bg-orange-400 my-32 p-18 rounded-lg shadow space-y-6"
+            className="md:w-1/2 2xl:w-1/3 bg-orange-400 my-32 p-10 rounded-lg shadow space-y-6"
             onSubmit={handleSubmit}
           >
             <div className="space-y-4">
@@ -128,8 +128,7 @@ export default function Header() {
               <select
                 id="category"
                 name="category"
-                className="p-3
-                w-full rounded-lg focus:outline-name bg-amber-50"
+                className="p-3 w-full rounded-lg focus:outline-name bg-amber-50"
                 onChange={handleChange}
                 value={searchFilters.category}
               >
